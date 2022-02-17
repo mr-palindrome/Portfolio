@@ -72,25 +72,6 @@
 
 /* End Banner Area */ 
 
-/* Start About Area */ 
-
-.site-main .about-area{
-    padding: 8rem 5rem;
-}
-
-.site-main .about-area .about-title h2 > span{
-    display: block;
-    font: normal bold 49px/ 60px var(--kanit);
-    letter-spacing: 21px;
-}
-
-.site-main .about-area .about-title .paragraph > p{
-    padding: .4rem 0;
-}
-
-/* End About Area */ 
-
-
 /* Start skill Area */ 
 
 .site-main .skill-area{
@@ -201,3 +182,5 @@ footer.footer-area .social a:hover > img{
 
 
 /* End Footer */ 
+
+
