@@ -1,9 +1,9 @@
 
 /* css variables */ 
-@import url(./partials/_variables.css);
+@import url(partials/variables.css);
 
 /* import global styling */ 
-@import url(./partials/_global.css);
+@import url(partials/global.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
 /* start navigation */ 
@@ -91,24 +91,24 @@
 /* End About Area */ 
 
 
-/* Start Brand Area */ 
+/* Start skill Area */ 
 
-.site-main .brand-area{
-    padding: 1rem 20rem;
-    margin-bottom: 4rem;
+.site-main .skill-area{
+    padding: 1rem 10rem;
+    margin-bottom: 2rem;
 }
 
-.site-main .brand-area .first-row{
+.site-main .skill-area .first-row{
     display: flex;
     justify-content: center;
 }
 
-.site-main .brand-area .first-row .col-lg-2{
+.site-main .skill-area .first-row .col-lg-2{
     display: flex;
     justify-content: center;
 }
 
-.site-main .brand-area .first-row .col-lg-2 > .single-brand{
+.site-main .skill-area .first-row .col-lg-2 > .single-skill{
     border: 1px solid var(--border-color);
     text-align: center;
     padding: 0.1rem 0rem;
@@ -119,43 +119,43 @@
     transition: transform .4s ease;
 }
 
-.site-main .brand-area .first-row .col-lg-2 > .single-brand > img{
+.site-main .skill-area .first-row .col-lg-2 > .single-skill > img{
     width: 100%;
     height: 100%;
 }
 
-.site-main .brand-area .first-row .col-lg-2 > .single-brand:hover{
+.site-main .skill-area .first-row .col-lg-2 > .single-skill:hover{
     box-shadow: var(--box-shadow);
     transform: scale(1.1);
 }
 
-.site-main .brand-area .first-row .col-lg-2 > .single-brand > img{
+.site-main .skill-area .first-row .col-lg-2 > .single-skill > img{
     filter: brightness(0.15);
 }
 
-/* End Brand Area */ 
+/* End skill Area */ 
 
-/* Services Area */ 
+/* projects Area */ 
 
-.site-main .services-area{
+.site-main .projects-area{
     padding: 3rem 2rem;
 }
 
-.site-main .services-area .first-row{
+.site-main .projects-area .first-row{
     display: flex;
     justify-content: center;
 }
 
 
-.site-main .services-area .services-title{
+.site-main .projects-area .projects-title{
     padding: 1rem 14rem;
 }
 
-.site-main .services-area .services-title h1{
+.site-main .projects-area .projects-title h1{
     font-size: 45px;
 }
 
-.site-main > .services-area .services{
+.site-main > .projects-area .projects{
     background: rgba(248, 252, 253, 0.973);
     /* padding: 2rem 0; */
     width: 16rem;
@@ -163,15 +163,15 @@
     transition: box-shadow .7s ease;
 }
 
-.site-main > .services-area .services:hover{
+.site-main > .projects-area .projects:hover{
     box-shadow: var(--box-shadow);
 }
-.site-main .services-area .project-img>img{
+.site-main .projects-area .project-img>img{
     width: 90%;
 }
 
 
-/* End Services Area */ 
+/* End projects Area */ 
 
 /* Footer Area */ 
 
