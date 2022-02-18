@@ -9,7 +9,7 @@
 /* start navigation */ 
 
 .header_area .main-menu .navbar>h2{
-    padding: 0 2rem 0 5rem;
+    padding: 0 2rem 0 3rem;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -21,7 +21,7 @@
 .header_area .main-menu .nav-item .nav-link{
     font: normal 500 15px/2px var(--kanit);
     text-transform: uppercase;
-    padding: 1.7rem;
+    padding: 1.1rem;
     color: var(--title-color);
 }
 
@@ -74,7 +74,7 @@
 /* Start skill Area */ 
 
 .site-main .skill-area{
-    padding: 1rem 10rem;
+    padding: 1rem 5rem;
     margin-bottom: 2rem;
 }
 
@@ -83,15 +83,15 @@
     justify-content: center;
 }
 
-/* .site-main .skill-area .first-row .col-lg-2{
+.site-main .skill-area .first-row .col-lg-2{
     display: flex;
     justify-content: center;
-} */
+}
 
 .site-main .skill-area .first-row .col-lg-2 > .single-skill{
     /* border: 1px solid var(--border-color); */
     text-align: center;
-    padding: 0.1rem 0rem;
+    /* padding: 0.1rem 0rem; */
     margin: .9rem 0;
     width: 180px;
     height: 100px;
@@ -109,9 +109,6 @@
     transform: scale(1.1);
 }
 
-.site-main .skill-area .first-row .col-lg-2 > .single-skill > img{
-    /* filter: brightness(0.15); */
-}
 
 /* End skill Area */ 
 
@@ -122,12 +119,12 @@
     background-color: whitesmoke;
 }
 
-.site-main .projects-area .first-row{
+.site-main .projects-area .first-row,
+.site-main .projects-area .first-row .col-lg-3{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 .site-main .projects-area .projects-title{
     padding-top: 4rem;
