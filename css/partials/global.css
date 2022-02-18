@@ -95,3 +95,7 @@ button:hover
     transition: background 1s ease;
 }
 
+.link, .link:hover{
+    text-decoration: none;
+    color: black;
+}
