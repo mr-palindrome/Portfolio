@@ -17,6 +17,7 @@
     .site-main > .projects-area .projects{
         width: 13rem;
     }
+    
 
 }
 
@@ -24,6 +25,20 @@
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 792px){
     
+    .content-row{
+        display: flex;
+        padding-left: 4%;
+    }
+    .blog-brief{
+        display: none;
+    }
+    .blog-link{
+        display: none;
+    }
+    .blog-title{
+        font-size: 1rem;
+        font-weight: 500;
+    }
 
 }
 
@@ -46,6 +61,7 @@
     .site-main .about-area{
         padding: 3% 4%;
     }
+    
 
 
 }

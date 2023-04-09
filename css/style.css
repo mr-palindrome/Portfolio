@@ -16,6 +16,8 @@
 
 .header_area .main-menu .navbar{
     padding: 1rem 20rem ;
+    /* position: fixed; */
+    /* top: 0; */
 }
 
 .header_area .main-menu .nav-item .nav-link{
@@ -118,7 +120,10 @@
     padding: 1rem 2.5rem;
     background-color: whitesmoke;
 }
-
+.projects-area{
+    padding: 1rem 2.5rem;
+    background-color: whitesmoke;
+}
 .site-main .projects-area .first-row,
 .site-main .projects-area .first-row .col-lg-3{
     display: flex;
@@ -187,3 +192,7 @@ footer.footer-area .social a:hover > img{
 /* End Footer */ 
 
 
+.show-more {
+    display: flex;
+    justify-content: center;
+}

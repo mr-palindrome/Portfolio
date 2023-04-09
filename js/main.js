@@ -7,9 +7,9 @@ $(document).ready(function () {
             $(window).scroll(function () {
                 let scroll = $(window).scrollTop();
                 if (scroll >= nav_offset_top) {
-                    $('.header_area .main-menu').addClass('navbar_fixed');
+                    $('.header_area').addClass('navbar_fixed');
                 } else {
-                    $('.header_area .main-menu').removeClass('navbar_fixed');
+                    $('.header_area').removeClass('navbar_fixed');
                 }
             })
         }
