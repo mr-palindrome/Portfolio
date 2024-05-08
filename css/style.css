@@ -18,7 +18,7 @@
     line-height: 1.6em;
   } */
 .header_area .main-menu .navbar>h2 {
-    padding: 0 2rem 0 3rem;
+    padding: 0 2rem 0 1rem;
     font-weight: bold;
     letter-spacing: 2px;
 }
