@@ -18,6 +18,7 @@ async function gql(query, variables={}) {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
+            
         },
         body: JSON.stringify({
             query,
@@ -64,12 +65,12 @@ gql(GET_USER_ARTICLES, { page: 0 })
             
             
             let parentLink = document.createElement('a');
-            parentLink.href = `https://blog.nayandas.tech/${article.slug}`;
+            parentLink.href = `https://blog.nayandas.dev/${article.slug}`;
             parentLink.target='_blank';
             parentLink.classList.add('link')
             
             let link = document.createElement('a');
-            link.href = `https://blog.nayandas.tech/${article.slug}`;
+            link.href = `https://blog.nayandas.dev/${article.slug}`;
             link.target='_blank';
             link.classList.add('blog-link');
             link.innerText = 'Read more';

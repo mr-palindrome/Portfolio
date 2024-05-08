@@ -1,40 +1,49 @@
-
-/* css variables */ 
+/* css variables */
 @import url(partials/variables.css);
 
-/* import global styling */ 
+/* import global styling */
 @import url(partials/global.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
-/* start navigation */ 
+/* start navigation */
 
-.header_area .main-menu .navbar>h2{
+/* body {	
+    margin: 0;
+    padding: 0;
+    background: rgb(230,230,230);
+    
+    color: rgb(50,50,50);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 112.5%;
+    line-height: 1.6em;
+  } */
+.header_area .main-menu .navbar>h2 {
     padding: 0 2rem 0 3rem;
     font-weight: bold;
     letter-spacing: 2px;
 }
 
-.header_area .main-menu .navbar{
-    padding: 1rem 20rem ;
+.header_area .main-menu .navbar {
+    padding: 1rem 20rem;
     /* position: fixed; */
     /* top: 0; */
 }
 
-.header_area .main-menu .nav-item .nav-link{
+.header_area .main-menu .nav-item .nav-link {
     font: normal 500 15px/2px var(--kanit);
     text-transform: uppercase;
     padding: 1.8rem 1.5rem;
     color: var(--title-color);
 }
 
-.header_area .main-menu .navbar-nav .active a{
+.header_area .main-menu .navbar-nav .active a {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.header_area .main-menu .navbar-nav a:hover{
+.header_area .main-menu .navbar-nav a:hover {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -42,55 +51,58 @@
 }
 
 
-/* end navigation */ 
+/* end navigation */
 
-/* Banner Area */ 
+/* Banner Area */
 
 .site-main .site-banner {
     background-color: rgba(195, 212, 233, 0.562);
 }
 
-.site-main .site-banner .site-title h3{
+.site-main .site-banner .site-title h3 {
     padding-top: 20%;
     font-weight: 500;
 }
 
 
-.site-main .site-banner .site-title h1{
+.site-main .site-banner .site-title h1 {
     font-size: 5rem;
 }
 
-.site-main .site-banner .site-title h4{
+.site-main .site-banner .site-title h4 {
     font-size: 1.5rem;
 }
 
-.site-main .site-banner .banner-image > img{
-    padding: 7rem 0;
+.site-main .site-banner .banner-image>img {
+    padding: 10rem 0;
     width: 90rem;
 }
 
+/* .container {
+    max-width: 90%;
 
+} */
 
-/* End Banner Area */ 
+/* End Banner Area */
 
-/* Start skill Area */ 
+/* Start skill Area */
 
-.site-main .skill-area{
+.site-main .skill-area {
     padding: 1rem 5rem;
     margin-bottom: 2rem;
 }
 
-.site-main .skill-area .first-row{
+.site-main .skill-area .first-row {
     display: flex;
     justify-content: center;
 }
 
-.site-main .skill-area .first-row .col-lg-2{
+.site-main .skill-area .first-row .col-lg-2 {
     display: flex;
     justify-content: center;
 }
 
-.site-main .skill-area .first-row .col-lg-2 > .single-skill{
+.site-main .skill-area .first-row .col-lg-2>.single-skill {
     /* border: 1px solid var(--border-color); */
     text-align: center;
     /* padding: 0.1rem 0rem; */
@@ -101,49 +113,52 @@
     transition: transform .4s ease;
 }
 
-.site-main .skill-area .first-row .col-lg-2 > .single-skill > img{
+.site-main .skill-area .first-row .col-lg-2>.single-skill>img {
     width: 100%;
     height: 100%;
 }
 
-.site-main .skill-area .first-row .col-lg-2 > .single-skill:hover{
+.site-main .skill-area .first-row .col-lg-2>.single-skill:hover {
     box-shadow: var(--box-shadow);
     transform: scale(1.1);
 }
 
 
-/* End skill Area */ 
+/* End skill Area */
 
-/* projects Area */ 
+/* projects Area */
 
-.site-main .projects-area{
+.site-main .projects-area {
     padding: 1rem 2.5rem;
     background-color: whitesmoke;
 }
-.projects-area{
+
+.projects-area {
     padding: 1rem 2.5rem;
     background-color: whitesmoke;
 }
+
 .site-main .projects-area .first-row,
-.site-main .projects-area .first-row .col-lg-3{
+.site-main .projects-area .first-row .col-lg-3 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.site-main .projects-area .projects-title{
+.site-main .projects-area .projects-title {
     padding-top: 4rem;
     padding-bottom: 2rem;
 }
 
-.site-main .projects-area .projects-title h1{
+.site-main .projects-area .projects-title h1 {
     font-size: 45px;
 }
 
-.site-main > .projects-area .col-lg-3{
+.site-main>.projects-area .col-lg-3 {
     max-width: 50rem;
 }
-.site-main > .projects-area .projects{
+
+.site-main>.projects-area .projects {
     background: rgba(248, 252, 253, 0.973);
     /* padding: 2rem 0; */
     width: 16rem;
@@ -151,30 +166,31 @@
     transition: box-shadow .7s ease;
 }
 
-.site-main > .projects-area .projects:hover{
+.site-main>.projects-area .projects:hover {
     box-shadow: var(--box-shadow);
 }
-.site-main .projects-area .project-img>img{
+
+.site-main .projects-area .project-img>img {
     width: 90%;
 }
 
 
-/* End projects Area */ 
+/* End projects Area */
 
-/* Footer Area */ 
+/* Footer Area */
 
-footer.footer-area{
+footer.footer-area {
     padding: 5rem 0;
     background: url(../img/footer-bg.png) no-repeat;
     background-color: whitesmoke;
 }
 
-footer.footer-area .social h5{
+footer.footer-area .social h5 {
     font: normal 500 23px/ 30px var(--kanit);
 }
 
-footer.footer-area .social a > img{
-    font-size:22px;
+footer.footer-area .social a>img {
+    font-size: 22px;
     width: 100px;
     padding: 2rem;
     color: var(--border-color);
@@ -182,17 +198,232 @@ footer.footer-area .social a > img{
     transition: transform .4s ease;
 }
 
-footer.footer-area .social a:hover > img{
+footer.footer-area .social a:hover>img {
     /* box-shadow: var(--box-shadow); */
     /* transform: scale(1.1); */
     filter: brightness(0.7);
 }
 
 
-/* End Footer */ 
+/* End Footer */
 
 
 .show-more {
     display: flex;
     justify-content: center;
+}
+
+.mini-font {
+    font-size: 0.9em;
+}
+
+.sub-skills {
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+.dotted-line {
+    padding-top: 6vh;
+    padding-bottom: 3vh;
+    width: 80%;
+    height: 1px;
+    border-bottom: 1px dotted #000;
+    /* Adjust thickness and color as needed */
+    margin: 0 auto;
+    /* Center the line horizontally */
+}
+
+
+/* ================ The Timeline ================ */
+
+.exp-area {
+    padding: 5rem 0;
+    margin-bottom: 2rem;
+}
+
+.timeline {
+    position: relative;
+    width: 660px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 1em 0;
+    list-style-type: none;
+}
+
+.timeline:before {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content: ' ';
+    display: block;
+    width: 6px;
+    height: 100%;
+    margin-left: -3px;
+    background: rgb(80, 80, 80);
+    background: -moz-linear-gradient(top, rgba(80, 80, 80, 0) 0%, rgb(80, 80, 80) 8%, rgb(80, 80, 80) 92%, rgba(80, 80, 80, 0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(30, 87, 153, 1)), color-stop(100%, rgba(125, 185, 232, 1)));
+    background: -webkit-linear-gradient(top, rgba(80, 80, 80, 0) 0%, rgb(80, 80, 80) 8%, rgb(80, 80, 80) 92%, rgba(80, 80, 80, 0) 100%);
+    background: -o-linear-gradient(top, rgba(80, 80, 80, 0) 0%, rgb(80, 80, 80) 8%, rgb(80, 80, 80) 92%, rgba(80, 80, 80, 0) 100%);
+    background: -ms-linear-gradient(top, rgba(80, 80, 80, 0) 0%, rgb(80, 80, 80) 8%, rgb(80, 80, 80) 92%, rgba(80, 80, 80, 0) 100%);
+    background: linear-gradient(to bottom, rgba(80, 80, 80, 0) 0%, rgb(80, 80, 80) 8%, rgb(80, 80, 80) 92%, rgba(80, 80, 80, 0) 100%);
+
+    z-index: 5;
+}
+
+.timeline li {
+    padding: 1em 0;
+}
+
+.timeline li:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.direction-l {
+    position: relative;
+    width: 300px;
+    float: left;
+    text-align: right;
+}
+
+.direction-r {
+    position: relative;
+    width: 300px;
+    float: right;
+}
+
+.flag-wrapper {
+    position: relative;
+    display: inline-block;
+
+    text-align: center;
+}
+
+.flag {
+    position: relative;
+    display: inline;
+    background: rgb(248, 248, 248);
+    padding: 6px 10px;
+    border-radius: 5px;
+
+    font-weight: 600;
+    text-align: left;
+}
+
+.direction-l .flag {
+    -webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.direction-r .flag {
+    -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.direction-l .flag:before,
+.direction-r .flag:before {
+    position: absolute;
+    top: 50%;
+    right: -35px;
+    content: ' ';
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin-top: -10px;
+    background: #fff;
+    border-radius: 10px;
+    border: 4px solid rgb(255, 80, 80);
+    z-index: 10;
+}
+
+.direction-r .flag:before {
+    left: -35px;
+}
+
+.direction-l .flag:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    margin-top: -8px;
+    border: solid transparent;
+    border-left-color: rgb(248, 248, 248);
+    border-width: 8px;
+    pointer-events: none;
+}
+
+.direction-r .flag:after {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    margin-top: -8px;
+    border: solid transparent;
+    border-right-color: rgb(248, 248, 248);
+    border-width: 8px;
+    pointer-events: none;
+}
+
+.time-wrapper-bl {
+    display: inline;
+
+    line-height: 1em;
+    font-size: 1em;
+    color: rgb(6, 6, 6);
+    vertical-align: middle;
+}
+
+.time-wrapper {
+    display: inline;
+
+    line-height: 1em;
+    font-size: 0.66666em;
+    color: rgb(250, 80, 80);
+    vertical-align: middle;
+}
+
+.direction-l .time-wrapper {
+    float: left;
+}
+
+.direction-r .time-wrapper {
+    float: right;
+}
+
+.time {
+    display: inline-block;
+    padding: 4px 6px;
+    background: rgb(248, 248, 248);
+}
+
+.desc {
+    margin: 1em 0.75em 0 0;
+
+    font-size: 0.77777em;
+    font-style: italic;
+    line-height: 1.5em;
+}
+
+.direction-r .desc {
+    margin: 1em 0 0 0.75em;
+}
+
+.timeline a {
+    text-decoration: none;
+    color: rgb(31, 32, 32);
+}
+
+.exp-title {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgb(250, 80, 80);
 }
